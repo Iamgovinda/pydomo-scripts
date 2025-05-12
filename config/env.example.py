@@ -1,0 +1,7 @@
+api_key = ""
+domo_client_id = ""
+domo_client_secret = ""
+domo_host_name = ""
+domo_api_host = "api.domo.com"
+dataset_id = ""
+domo_meta_data_dataset_id = ""
