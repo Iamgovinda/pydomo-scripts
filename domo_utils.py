@@ -54,8 +54,8 @@ def upload_data_to_dataset(csv_file_path, ds_id, method="APPEND"):
 
 
 if __name__ == "__main__":
-    csv_file = "zoom/queues.csv"
+    csv_file = "yourfile.csv"
     try:
-        upload_data_to_dataset(csv_file, "", "REPLACE")
+        upload_data_to_dataset(csv_file, "dataset_id", "REPLACE")
     except Exception as exc:
         print(exc)
